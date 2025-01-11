@@ -1,0 +1,19 @@
+.stylish-btn {
+    border-radius: 30px;
+    color: #ffffff !important;
+    background: linear-gradient(to right, #3f87a6, #eb3349);
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .stylish-btn:hover {
+    background: linear-gradient(to left, #eb3349, #3f87a6);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3px);
+  }
+  
+  .stylish-btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 87, 34, 0.75);
+  }
